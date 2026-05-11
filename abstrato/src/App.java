@@ -9,13 +9,13 @@ public class App {
         //aula é isso
         Triangulo TR = new Triangulo(5,"Triangulo","Retangulo");
         //USANDO A IMPLEMENTAÇÃO DO MÉTODO ABSTRATO AREA() DA SUPERCLASSE
-        System.out.println("A area do TR é: " + TR.area()+ "\n");
+        System.out.println("A area do Triangulo é: " + TR.area()+ "\n");
 
-        Retangulo R = new Retangulo(5);
-        System.out.println("A area do TR é: "+ R.area()+ "\n");
+        Retangulo Retangulo = new Retangulo(5);
+        System.out.println("A area do Retangulo é: "+ Retangulo.area()+ "\n");
 
-        Circulo C = new Circulo(5);
-        System.out.println("A area do Circulo é: " + C.area() + "\n");
+        Circulo Circulo = new Circulo(5);
+        System.out.println("A area do Circulo é: " + Circulo.area() + "\n");
         //------------AULA ACABOU AQUI--------------
 
 

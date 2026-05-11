@@ -1,4 +1,4 @@
-class Retangulo extends Forma2D {
+public class Retangulo extends Forma2D {
 
 
     public Retangulo() {
